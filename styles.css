@@ -68,7 +68,7 @@ li {
 }
 
 header {
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
 }
 
 .header__container {
@@ -80,3 +80,13 @@ header {
   flex-direction: column;
 }
 
+h1 {
+  font-size: 56px;
+  color:#7342d6;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
