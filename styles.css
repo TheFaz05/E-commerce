@@ -4,6 +4,7 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 font-family: "Roboto", sans-serif;
+{
 
 
 
@@ -250,7 +251,7 @@ FEATURED
 }
 
 .book__title {
-  font-size: 25px
+  font-size: 25px;
   margin-bottom: 8px;
   font-weight: 700;
 }
@@ -288,54 +289,6 @@ LATEST
 .book-container {
   display: flex;
   flex-wrap: wrap;
-}
-.book {
-  width: 25%;
-  padding: 24px;
-}
-
-.book__img {
-  max-height: 380px;
-  transition: all 300ms ease;
-  cursor: not-allowed;
-}
-
-.book__img--wrapper {
-  margin-bottom: 8px;
-  border-radius: 4px;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.book:hover .book__img {
-  transform: scale(1.03);
-}
-
-.book__title {
-  font-size: 25px
-  margin-bottom: 8px;
-  font-weight: 700;
-}
-
-.book__title:hover {
-  text-decoration: underline;
-  cursor: not-allowed;
-}
-
-.book__ratings {
-  margin-bottom: 8px;
-  color: #fabf2a;
-}
-
-.book__price--normal {
-  text-decoration: line-through;
-  padding-right: 6px;
-  color: #bfbfbf;
-}
-
-.book__price {
-  font-weight: 700;
 }
 
 
